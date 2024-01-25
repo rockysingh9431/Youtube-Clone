@@ -1,3 +1,13 @@
+### YouTube Clone App
+
+## Table of Contents:
+
+# Installation
+# Brief Of the Project
+# Headlines of the Project
+
+## INSTALLATION
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,3 +78,28 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+## Brief:
+
+This App has been Created Using Libraries Like React and React Redux For storing data and for designing It uses Tailwind and Created a full fledged Youtube App in which I have implemented different Functionalities of Youtube Using Live Google APIs.
+
+## Headlines of the Project
+
+# Implemented Different functionalities of Youtube:
+
+  1. SideBar: Which will be implemented with the help of Redux-store which will work exactly same as in Youtube.
+
+  2. SearchBox: searchBox and its functionalities like Search Results are most Important and most difficult part of this web-App.
+
+           1. Calling API for search Suggestion.
+           2. Calling API for SearchResults According to query.
+           3. Triggering the redux store to save the searchQuery and At the same time render the SearchVideo Component according to the searchQuery.
+
+  3. MainVideoContainer: This will hold the ButtonList, VideoContainer, WatchPage And SearchVideoContainer all will Render Acccording to the Router.
+  4. WatchPage: This will Have a Comment Component So I moved One Step ahead here And Implemented Nested Comments.
+
+       1. Creating Comment Component is also a challenging task here as It needs Recursion to Implement nested Comments.
+       2. LiveChat feature: It is the Most Inetresting part of this webApp as it needs good Knowledge of Javscript React and Redux So here knowledge of all three will be tested.
+
+       ## ________________________________________________________________________________________________________
