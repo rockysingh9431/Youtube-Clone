@@ -1,10 +1,10 @@
-### YouTube Clone App
+# YouTube Clone App
 
 ## Table of Contents:
 
-# Installation
-# Brief Of the Project
-# Headlines of the Project
+### Installation
+### Brief Of the Project
+### Headlines of the Project
 
 ## INSTALLATION
 
