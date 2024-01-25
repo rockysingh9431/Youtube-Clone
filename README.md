@@ -6,9 +6,9 @@
 ### Brief Of the Project
 ### Headlines of the Project
 
-## INSTALLATION
+# INSTALLATION
 
-# Getting Started with Create React App
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -80,13 +80,13 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
 
-## Brief:
+# Brief:
 
 This App has been Created Using Libraries Like React and React Redux For storing data and for designing It uses Tailwind and Created a full fledged Youtube App in which I have implemented different Functionalities of Youtube Using Live Google APIs.
 
-## Headlines of the Project
+# Headlines of the Project
 
-# Implemented Different functionalities of Youtube:
+## Implemented Different functionalities of Youtube:
 
   1. SideBar: Which will be implemented with the help of Redux-store which will work exactly same as in Youtube.
 
