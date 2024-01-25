@@ -23,13 +23,13 @@ Implemented Different functionalities of Youtube:
      
            1. Calling API for search Suggestion.
            2. Calling API for SearchResults According to query.
-           3.Triggering the redux store to save the searchQuery and At the same time render the SearchVideo Component according to the                  searchQuery.
+           3.Triggering the redux store to save the searchQuery and At the same time render the SearchVideo Component according to the searchQuery.
      
   3. MainVideoContainer: This will hold the ButtonList, VideoContainer, WatchPage And SearchVideoContainer all will Render Acccording to 
      the Router.
      
   4. WatchPage: This will Have a Comment Component So I moved One Step ahead here And Implemented Nested Comments.
-  5. 
+     
        1. Creating Comment Component is also a challenging task here as It needs Recursion to Implement nested Comments.
        2. LiveChat feature: It is the Most Inetresting part of this webApp as it needs good Knowledge of Javscript React and Redux So 
           here knowledge of all three will be tested.
