@@ -1,4 +1,4 @@
-const GOOGLE_API_KEY = "";
+const GOOGLE_API_KEY = "AIzaSyCe0oqKGYZfn5CiPG5NuvSrtySIVPlz5Qg";
 export const SUBSCRIPTIONS_API =
   "https://youtube.googleapis.com/youtube/v3/subscriptions?part=snippet&mine=true&key=" +
   GOOGLE_API_KEY;
