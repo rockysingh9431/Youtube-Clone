@@ -36,6 +36,7 @@ const SearchBox = () => {
         })
       );
     }
+    console.log(searchQuery)
   };
   return (
     <div className="">

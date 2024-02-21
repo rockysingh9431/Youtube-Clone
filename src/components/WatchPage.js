@@ -1,25 +1,26 @@
 import React, { useEffect } from "react";
-import { useDispatch } from "react-redux";
-import { closedMenu } from "../utils/sideBarSlice";
+import { useDispatch, useSelector } from "react-redux";
+import { closedMenu, onWatchPage } from "../utils/sideBarSlice";
 import { useSearchParams } from "react-router-dom";
 import CommentBox from "./CommentBox";
 import LiveChat from "./LiveChat";
 const WatchPage = () => {
+  const isWatchPage = useSelector((store) => store.sidebar.isWatchPage);
+  const isMenuOpen = useSelector((store) => store.sidebar.isMenuOpen);
   const [searchParams] = useSearchParams();
-
   const dispatch = useDispatch();
   useEffect(() => {
-    dispatch(closedMenu());
+    if (isMenuOpen) dispatch(closedMenu());
+    if (!isWatchPage) dispatch(onWatchPage());
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
-
   return (
-    <div>
-      <div className="flex w-full">
+    <div className="mt-16">
+      <div className="flex justify-end">
         <div className="m-2 p-2">
           <iframe
             className="rounded-xl"
-            width="900"
+            width="1050"
             height="500"
             src={"https://www.youtube.com/embed/" + searchParams.get("v")}
             title="YouTube video player"

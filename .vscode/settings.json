@@ -1,4 +1,5 @@
 {
     "reactSnippets.settings.prettierEnabled": true,
-    "reactSnippets.settings.typescriptPropsStatePrefix": "interface"
+    "reactSnippets.settings.typescriptPropsStatePrefix": "interface",
+    "CodeGPT.apiKey": "CodeGPT Plus Beta"
 }

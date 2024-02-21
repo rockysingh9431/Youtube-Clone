@@ -3,9 +3,9 @@ import VideoCard from "./VideoCard";
 import { YOUTUBE_VIDEO_API } from "../config";
 import { Link } from "react-router-dom";
 import useGetVideos from "../utils/useGetVideos";
+import Demo from "./Demo";
 const VideoContainer = () => {
   const videos = useGetVideos(YOUTUBE_VIDEO_API);
-  console.log(videos)
   return videos ? (
     <div className="flex flex-wrap p-2">
       {videos.map((videoInfo) => {
@@ -15,6 +15,10 @@ const VideoContainer = () => {
           </Link>
         );
       })}
+
+      <Link to="/demo">
+        <Demo/>
+      </Link>
     </div>
   ) : null;
 };

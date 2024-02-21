@@ -5,6 +5,7 @@ import { useSelector } from "react-redux";
 import { Link } from "react-router-dom";
 const SearchVideoContainer = () => {
   const searchQuery = useSelector((store) => store.searchText.search);
+  console.log(searchQuery)
   const encodedSearchQuery = encodeURIComponent(searchQuery);
   const YOUTUBE_SEARCH_API = VIDEO_SEARCH_API(encodedSearchQuery);
   const videos = useGetVideos(YOUTUBE_SEARCH_API);

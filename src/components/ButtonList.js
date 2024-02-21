@@ -14,7 +14,7 @@ const ButtonList = () => {
     "JavaScript",
   ];
   return (
-    <div className="flex flex-wrap w-full bg-white z-10">
+    <div className="flex flex-wrap w-full pt-3 bg-white z-10">
       {btnList.map((item, index) => {
         return (
           <div key={index} className="p-1 px-3 bg-slate-200 rounded-md m-2">

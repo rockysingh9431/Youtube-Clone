@@ -1,25 +1,23 @@
 import React from "react";
-import {useDispatch} from "react-redux"
+import { useDispatch } from "react-redux";
 import { toggleMenu } from "../utils/sideBarSlice";
 import SearchBox from "./SearchBox";
-
 const Header = () => {
-
-  const dispatch=useDispatch();
-  const toggleSideBar=()=>{
-    dispatch(toggleMenu())
-  }
+  const dispatch = useDispatch();
+  const toggleSideBar = () => {
+    dispatch(toggleMenu());
+  };
   return (
-    <div className="sticky top-0 z-10 bg-white">
+    <div className="fixed top-0 left-0 right-0 z-10 bg-white">
       <div className="grid grid-flow-col p-1">
         <div className="flex p-1 col-span-1">
           <button
-            className=" mx-2 rounded-full p-3 hover:bg-slate-200"
+            className=" mx-2 rounded-full p-2 hover:bg-slate-200"
             onClick={() => toggleSideBar()}
           >
             <img
-              className="h-5"
-              src="https://pic.onlinewebfonts.com/thumbnails/icons_422593.svg"
+              className="h-6 w-6"
+              src="https://cdn-icons-png.freepik.com/512/9293/9293128.png"
               alt="navbar-icon"
             />
           </button>
@@ -33,7 +31,7 @@ const Header = () => {
             </a>
           </button>
         </div>
-        <div className="mt-1 flex justify-center">
+        <div className="mt-1 hidden lg:flex justify-center">
           <SearchBox />
         </div>
         <div className="col-span-1 p-1 flex justify-end">
