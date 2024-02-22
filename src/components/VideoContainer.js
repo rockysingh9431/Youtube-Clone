@@ -3,7 +3,6 @@ import VideoCard from "./VideoCard";
 import { YOUTUBE_VIDEO_API } from "../config";
 import { Link } from "react-router-dom";
 import useGetVideos from "../utils/useGetVideos";
-import Demo from "./Demo";
 const VideoContainer = () => {
   const videos = useGetVideos(YOUTUBE_VIDEO_API);
   return videos ? (
@@ -16,9 +15,6 @@ const VideoContainer = () => {
         );
       })}
 
-      <Link to="/demo">
-        <Demo/>
-      </Link>
     </div>
   ) : null;
 };

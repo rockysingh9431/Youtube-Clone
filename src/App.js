@@ -8,7 +8,6 @@ import WatchPage from "./components/WatchPage";
 import MainContainer from "./components/MainContainer";
 import VideoContainer from "./components/VideoContainer";
 import SearchVideoContainer from "./components/SearchVideoContainer";
-import Demo from "./components/Demo";
 const Router = createBrowserRouter([
   {
     path: "/",
@@ -32,17 +31,13 @@ const Router = createBrowserRouter([
         path: "watch",
         element: <WatchPage />,
       },
-      {
-        path:"demo",
-        element:<Demo/>
-      }
     ],
   },
 ]);
 function App() {
   return (
     <Provider store={store}>
-      <Header/>
+      <Header />
       <RouterProvider router={Router} />
     </Provider>
   );

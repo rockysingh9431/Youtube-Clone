@@ -37,9 +37,9 @@ const Sidebar = () => {
     <>
       {isMenuOpen && (
         <div
-          className={`bg-white h-[676px] w-64 hover:overflow-auto custom-scrollbar ${
-            !isWatchPage && "mt-14"
-          } ${isWatchPage && "z-50 fixed"}`}
+          className={`bg-white h-[676px] w-60 hover:overflow-auto custom-scrollbar ${
+            !isWatchPage && "mt-16"
+          } ${isWatchPage && "z-20 fixed"}`}
         >
           {isWatchPage && (
             <div className="flex col-span-1">
@@ -126,7 +126,7 @@ const Sidebar = () => {
       )}
       {!isMenuOpen && !isWatchPage && (
         <div className="mt-14 w-24 divide-y divide-gray-900">
-          <div className="h-full bg-white">
+          <div className="h-full hover:bg-slate-300">
             {navList.map((item, index) => (
               <Link key={index} to="/" className="p-0.5 pl-0 ml-0 flex">
                 <ul>
