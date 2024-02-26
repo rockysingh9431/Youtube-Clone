@@ -6,7 +6,7 @@ const CommentBox = () => {
   const [textShow,setTextShow]=useState("Show Comments")
   return (
     <div className=" ml-4">
-      <div className="flex  mb-4">
+      <div className="flex mb-4">
         <p className="font-semibold p-3 text-2xl">Comments</p>
         <button
           className="ml-44 text-xl font-medium p-3"

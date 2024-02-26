@@ -36,7 +36,7 @@ const SearchBox = () => {
         })
       );
     }
-    console.log(searchQuery)
+    console.log("searchCache"+searchQuery)
   };
   return (
     <div className="">
@@ -50,7 +50,7 @@ const SearchBox = () => {
             />
           )}
           <input
-            className="xl:w-[576px] lg:w-96 md:w-72 sm:w-52 focus:pl-10 h-9 p-1 pl-4 rounded-l-full border border-slate-300"
+            className="xl:w-[576px] lg:w-96 md:w-72 sm:w-52 focus:pl-10 h-9 p-4 pl-4 rounded-l-full border border-slate-300"
             type="text"
             placeholder="search"
             value={searchQuery}

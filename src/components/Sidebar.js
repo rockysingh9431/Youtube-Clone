@@ -38,7 +38,7 @@ const Sidebar = () => {
       {isMenuOpen && (
         <div
           className={`bg-white h-[676px] w-60 hover:overflow-auto custom-scrollbar ${
-            !isWatchPage && "mt-16"
+            !isWatchPage && "mt-14"
           } ${isWatchPage && "z-20 fixed"}`}
         >
           {isWatchPage && (

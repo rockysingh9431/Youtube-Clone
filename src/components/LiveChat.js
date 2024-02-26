@@ -32,7 +32,7 @@ const LiveChat = () => {
         <p className="text-lg p-2 font-medium rounded-t-lg border mx-0 border-b-slate-400">
           LiveChat
         </p>
-        <div className="h-[455px] p-1 w-[380px] overflow-y-scroll flex flex-col-reverse">
+        <div className="h-[455px] p-1 w-full overflow-y-scroll flex flex-col-reverse">
           {chatDetails.map((chat) => {
             return (
               <ChatMessage

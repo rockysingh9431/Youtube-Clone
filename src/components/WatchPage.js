@@ -15,7 +15,7 @@ const WatchPage = () => {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
   return (
-    <div className="mt-16">
+    <div className="mt-2">
       <div className="flex justify-end">
         <div className="m-2 p-2">
           <iframe

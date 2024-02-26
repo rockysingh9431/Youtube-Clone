@@ -19,7 +19,7 @@ const Body = () => {
         <Sidebar />
       </div>
       <div
-        className={`${!isWatchPage && isMenuOpen ? "ml-60" : "ml-24"} mt-14`}
+        className={`${!isWatchPage? isMenuOpen ? "ml-60" : "ml-24":"w-full ml-8 mr-3"} mt-14`}
       >
         <Outlet />
       </div>

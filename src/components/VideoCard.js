@@ -10,7 +10,7 @@ const VideoCard = ({ info }) => {
       className={
         isMenuOpen
           ? "m-1 rounded-sm shadow-md h-80 w-[350px]"
-          : "m-1 rounded-sm shadow-md h-72 w-[350px]"
+          : "m-1 rounded-sm shadow-md h-72 w-[310px]"
       }
     >
       <img
